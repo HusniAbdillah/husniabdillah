@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="stylesheet" href="assets/css/styles.css">
+  
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Husni Abdilah's Portfolio</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#achievements">Achievements</a></li>
+          <li><a href="#projects">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Husni Abdillah</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#achievements" onclick="toggleMenu()">Achievements</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Gallery</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/Foto.png" alt="Husni Abdillah profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Husni Abdillah</h1>
+        <p class="section__text__p2">Undergraduate Computer Science Student <br/> at IPB University </p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/CV Husni Abdillah.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/husniabdillah/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/HusniAbdillah'"
+          />
+          <img 
+            src="./assets/instagram1.png"
+            alt="My Instagram profile"
+            class="icon"
+            onclick="location.href='https://instagram.com/husni_abdillah_ray'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/GIF.gif"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/achievements.png"
+                alt="Achievements icon"
+                class="icon"
+              />
+              <h3>Achievements</h3>
+              <p>80+ achievements<br /></p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>MAN 1 Mandailing Natal<br /> IPB University</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p style="text-align: justify;">
+              I am a Computer Science student at IPB University, recognized for academic excellence as the top graduate in 
+the Outstanding Student category at MAN 1 Mandailing Natal. My experience in competitive events, particularly 
+in mathematics and computer science, has honed my creativity, effective communication skills, and problem
+solving abilities. My flexibility and adaptability allows me to thrive both independently and within teams. 
+Additionally, I have a keen interest in the fields of robotics, competitive programming, and web development.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#achievements'"
+      />
+    </section>
+    
+    <section id="projects">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Achievements</h1>
+    
+      <div class="achievements-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/OSN.jpg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h3 class="achievements-sub-title project-title">Finalist of the Olimpiade Sains Nasional (OSN) in Mathematics</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/file/d/176-QpW0TuFv86CffeGGjLRJZGeWFKsVp/view'"
+              >
+                Open Certificate
+              </button>
+             
+            </div>
+          </div>
+        
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/IKMC.jpg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h3
+           class="achievements-sub-title project-title">  Gold Medal of the International Kangaroo Mathematics Contest (IKMC) 2023 </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/file/d/1-k3KeLJBJvFMHNIcta5Z5imV4v-xy-im/view'"
+              >
+                Open Certificate
+              </button>
+            
+            </div>
+          </div>
+        </div>
+
+       
+         <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/KMC.jpg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h3 class="achievements-sub-title project-title">Silver Medal of the Komodo Math Competition 2023</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/file/d/176-QpW0TuFv86CffeGGjLRJZGeWFKsVp/view'"
+              >
+                Open Certificate
+              </button>
+             
+            </div>
+          </div>
+        
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/AKSI.jpg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h3
+           class="achievements-sub-title project-title">  1st Place (Gold Medal) of the Ajang Kompetisi Sains (AKSi) LOPI in Mathematics </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/file/d/11EfsOU3EO9c6nlcUBBa-U9dd1hBHM8yh/view'"
+              >
+                Open Certificate
+              </button>
+            
+            </div>
+          </div>
+        </div>
+
+        <div class="achievements-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Itera.jpg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h3 class="achievements-sub-title project-title">3rd Place of the MEC I Olimpiade Matematika SMA Himatika ITERA Competition Institut Teknologi 
+Sumatera</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/file/d/14_12HB-s0nWd18E53g6gTUknUUxTMYko/view'"
+              >
+                Open Certificate
+              </button>
+             
+            </div>
+          </div>
+        
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/PGRI.jpg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h3
+           class="achievements-sub-title project-title">  1st Place of the UPY Mathematics Competition Universitas PGRI Yogyakarta </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/file/d/14Un-J5gOhM5l2b1vARJjOZAq9f5ZEbDH/view'"
+              >
+                Open Certificate
+              </button>
+            
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="achievements-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/UNJA.jpg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h3 class="achievements-sub-title project-title"> 1st Runner-up of the Kompetisi Matematika (KOMET) XII Universitas Jambi</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/file/d/14_12HB-s0nWd18E53g6gTUknUUxTMYko/view'"
+              >
+                Open Certificate
+              </button>
+             
+            </div>
+          </div>
+        
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/UIN Maliki.jpg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h3
+           class="achievements-sub-title project-title">  2nd Runner-up of the Kompetisi Matematika (KOMET) XXI UIN Maulana Malik Ibrahim Malang </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/file/d/1Ok_uslt6aZzEKcz0kI-mMW9FtD9BLKMw/view'"
+              >
+                Open Certificate
+              </button>
+            
+            </div>
+          </div>
+        </div>
+        
+
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+     </nav>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/husniabdillah/">LinkedIn</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:abdillah25ray@gmail.com">abdillah25ray@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img 
+            src = "./assets/instagram1.png"
+            alt="Instagram icon"
+            class="icon instagram-icon"
+          />
+          <p><a href="https://instagram.com/husni_abdillah_ray">Instagram</a></p>
+        </div>
+      </div>
+    </section>
+     
+   <footer>
+</body>
+      </nav>
+      <p style="text-align: center;" > Copyright &#169; 2024 Husni Abdillah. All Rights Reserved.</p>
+    </footer>
+
+      
+
+    <script src="script.js"></script>
+   
+  </body>
+</html>

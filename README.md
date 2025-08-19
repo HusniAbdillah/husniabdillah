@@ -48,6 +48,7 @@
     <img alt="Arduino IDE" src="https://img.shields.io/badge/Arduino_IDE-00979D?style=for-the-badge&logo=arduino&logoColor=white"/>
     <img alt="VSCode" src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
     <img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+    <img alt="Roboflow" src="https://img.shields.io/badge/Roboflow-00A6FF?style=for-the-badge&logo=roboflow&logoColor=white"/>
   </p>
 </details>
 
